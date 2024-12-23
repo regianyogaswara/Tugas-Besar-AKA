@@ -1,5 +1,7 @@
 import streamlit as st
 from aritmatika import aritmatika_iteratif, aritmatika_rekursif
+import sys
+sys.setrecursionlimit(55000)
 
 # Judul Aplikasi
 st.title("Aplikasi Perbandingan Deret Aritmatika: Iteratif vs Rekursif")
